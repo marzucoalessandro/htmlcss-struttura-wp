@@ -20,8 +20,8 @@ header{
 }
 
 .testata{
-  width: 70%;
-  height: 50%;
+  width: 400px;
+  height: 70px;
   border: 5px solid white;
   position: absolute;
   left: 50%;
@@ -36,14 +36,14 @@ header{
   text-transform: uppercase;
   }
 
-.grande{
+/* .grande{
   font-size: 60px;
-}
+} */
 
-.piccola{
+/* .piccola{
   position: absolute;
   bottom: 20px;
-}
+} */
 
 nav{
   width: 800px;
@@ -77,23 +77,23 @@ footer{
 }
 
 .side_left{
-  width: 200px;;
-  height: 35vh;
+  width: 135px;
+  height: 40vh;
   background-color: white;
   border-radius: 5px;
 }
 
 .center{
-  width: 350px;
+  width: 450px;
   height: 30vh;
   background-color: white;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
   border-radius: 5px;
 }
 
 .side_right{
-  width: 210px;
+  width: 135px;
   height: 110vh;
 }
 
