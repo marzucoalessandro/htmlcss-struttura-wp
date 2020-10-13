@@ -56,11 +56,10 @@ header{
 
 nav{
   width: 800px;
-  height: 80px;
+  height: 50px;
   background-color: grey;
   margin-bottom: 10px;
-  text-align: center;
-}
+  }
 
 
 
@@ -112,4 +111,17 @@ footer{
   background-color: white;
   margin-bottom: 20px;
   border-radius: 5px;
+}
+
+ul li{
+  list-style: none;
+  display: inline-block;
+
+}
+
+li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
 }
