@@ -33,3 +33,21 @@ footer{
   height: 20vh;
   background-color: red;
 }
+
+/* creo una utility class */
+
+.fl{
+  float: left;
+}
+
+.side_left{
+  width: 20%;
+  height: 30vh;
+  background-color: lightblue;
+}
+
+.center{
+  width: 40%;
+  height: 25vh;
+  background-color: white;
+}
