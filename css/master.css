@@ -60,6 +60,7 @@ nav{
   background-color: grey;
   margin-bottom: 10px;
   text-align: center;
+  line-height: 50px;
   }
 
 
@@ -126,6 +127,7 @@ li a{
   color: white;
   font-weight: 600;
   font-size: 10px;
-  margin-right: 10px;
+  margin-right: 15px;
+  vertical-align: middle;
 
 }
