@@ -29,7 +29,7 @@ header{
   transform: translate(-50%, -50%);
 }
 
-.scritta{
+.scritta_grande{
   color: white;
   font-weight: 400;
   text-align: center;
@@ -38,17 +38,21 @@ header{
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-
+  font-size: 60px;
   }
 
-.grande{
-  font-size: 60px;
-}
 
-/* .piccola{
+.scritta_piccola{
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
   position: absolute;
-  bottom: 20px;
-} */
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 19px;
+
+}
 
 nav{
   width: 800px;
