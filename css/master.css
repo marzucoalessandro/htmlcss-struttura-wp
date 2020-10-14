@@ -6,128 +6,33 @@
 
 body{
   background-image: url("https://s0.wp.com/wp-content/themes/premium/natural/images/natural-default-pattern.png");
-  width: 800px;
+  width: 1000px;
   margin: 0 auto;
 }
 
 header{
-  width: 800px;
-  height: 300px;
-  background-image: url(../img/natura.jpg);
-  border: 10px solid white;
-  background-size: cover;
+  width: 100%;
+  height: 400px;
+  background-color: white;
   position: relative;
 }
 
-.testata{
-  width: 400px;
-  height: 70px;
-  border: 5px solid white;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.scritta_grande{
-  color: white;
-  font-weight: 400;
-  text-align: center;
-  text-transform: uppercase;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 60px;
-  }
-
-
-.scritta_piccola{
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
-  position: absolute;
-  bottom: 20%;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 19px;
-
-}
-
 nav{
-  width: 800px;
-  height: 50px;
-  background-color: grey;
-  margin-bottom: 10px;
-  text-align: center;
-  line-height: 50px;
-  }
-
-
+  width: 100%;
+  height: 100px;
+  background-color: lightgrey;
+  position: absolute;
+  bottom: 0;
+}
 
 main{
-  width: 800;
-  height: 100vh;
+  width: 100%;
+  height: 800px;
+  background-color: red;
 }
-
 
 footer{
-  width: 800px;
-  height: 20vh;
-  background-color: white;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-}
-
-/* creo una utility class */
-
-.fl{
-  float: left;
-}
-
-.side_left{
-  width: 135px;
-  height: 40vh;
-  background-color: white;
-  border-radius: 5px;
-}
-
-.center{
-  width: 450px;
-  height: 30vh;
-  background-color: white;
-  margin-left: 40px;
-  margin-right: 40px;
-  border-radius: 5px;
-}
-
-.side_right{
-  width: 135px;
-  height: 110vh;
-}
-
-.right{
   width: 100%;
-  height: 35vh;
-  background-color: white;
-  margin-bottom: 20px;
-  border-radius: 5px;
-}
-
-ul li{
-  list-style: none;
-  display: inline-block;
-
-}
-
-li a{
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  font-weight: 600;
-  font-size: 10px;
-  margin-right: 15px;
-  vertical-align: middle;
-
+  height: 300px;
+  background-color: blue;
 }
