@@ -15,6 +15,8 @@ header{
   height: 400px;
   background-color: white;
   position: relative;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 nav{
@@ -29,6 +31,14 @@ main{
   width: 100%;
   height: 800px;
   background-color: red;
+  margin-bottom: 20px;
+}
+
+.container{
+  content: "";
+  display: table;
+  clear: both;
+
 }
 
 .side_left{
@@ -41,20 +51,24 @@ main{
   width: 50%;
   height: 200px;
   background-color: grey;
+  margin: 0 5%;
 }
 
 .side_right{
   width: 20%;
-  height: 100px;
+  height: 500px;
   background-color: white;
 }
 
-/* utility class float */
+/* utility class float left */
+.fl{
+  float: left;
+}
 
 
 
 footer{
   width: 100%;
-  height: 300px;
+  height: 200px;
   background-color: blue;
 }
